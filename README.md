@@ -7,7 +7,7 @@ The architectural baseline from AWS 07 stays in place: every service owns its ru
 ## Architecture
 
 ```mermaid
-%%{init: {"themeVariables": {"lineColor": "#ff1744", "edgeLabelBackground": "#fff5f6"}}}%%
+%%{init: {"themeVariables": {"lineColor": "#ff1744", "edgeLabelBackground": "#334155"}, "themeCSS": ".edgeLabel rect { fill: #334155 !important; opacity: 1 !important; } .edgeLabel text, .edgeLabel span { fill: #f8fafc !important; color: #f8fafc !important; }"}}%%
 flowchart LR
   browser[Browser UI]
 
